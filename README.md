@@ -1,15 +1,15 @@
 <img width="339" alt="Screenshot 2023-09-06 at 1 18 45 PM" src="https://github.com/gouravZenefits/UrlExtension/assets/96715717/ea7e5dfe-85f3-49e2-a189-6ea64c8ea828">
 
 **What**
-Browser Extension to create a new tab based on the currently active tab with different base url.
+- Browser Extension to create a new tab based on the currently active tab with different base url.
 
 
 **Why**
-We developers has to regularly check multiple console urls and many times to debug or check things on spoof/eng-spoof, we have to change the base url of console to the related spoof. Changing the url involves copy-pasting process multiple times. Using this extension we can change the base url and create a new tab with one click. This extension is suppose to increase the efficiency of our developers and remove the copy-pasting process.
+- We developers has to regularly check multiple console urls and many times to debug or check things on spoof/eng-spoof, we have to change the base url of console to the related spoof. Changing the url involves copy-pasting process multiple times. Using this extension we can change the base url and create a new tab with one click. This extension is suppose to increase the efficiency of our developers and remove the copy-pasting process.
 
 
 **How to Install**
-This can be use in both edge and chrome. For installing we need to turn on the developer mode of browser.
+- This can be use in both edge and chrome. For installing we need to turn on the developer mode of browser.
   1. Clone this repo, using git clone <git_url>
   2. Click on Manage Extension button on edge.
 <img width="709" alt="Screenshot 2023-09-06 at 1 19 34 PM" src="https://github.com/gouravZenefits/UrlExtension/assets/96715717/6563fa54-b4e1-48b0-be02-0ff625c3d5be">
@@ -23,7 +23,7 @@ This can be use in both edge and chrome. For installing we need to turn on the d
 
 
 **How to Use**
-For using this extension, we need to provide two urls
+- For using this extension, we need to provide two urls
   1. Base 1 url - default this will point to "https://console.zenefits.com"
   2. Base 2 url - default this will point to "https://console.zenefits.com"
 
