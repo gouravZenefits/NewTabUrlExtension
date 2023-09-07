@@ -31,7 +31,8 @@ If Base 1 url matches with the base url of current active tab, if we click on 'C
 
 
 - If we have currently active tab with this link - https://console.zenefits.com/console/company/119883 and
-    Base 1 url is passed as https://console.zenefits.com and Base 2 url is passed as https://gbarnwal-spoof-61650.dev.zncloud.net/ and when we click on 'Create Tab' button,
-    we will get a new tab with this url https://gbarnwal-spoof-61650.dev.zncloud.net/console/company/119883
+- Base 1 url is passed as https://console.zenefits.com and 
+- Base 2 url is passed as https://gbarnwal-spoof-61650.dev.zncloud.net/ and 
+- when we click on 'Create Tab' button, we will get a new tab with this url https://gbarnwal-spoof-61650.dev.zncloud.net/console/company/119883
 
 
