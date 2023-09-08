@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const lastBase1 = document.getElementById("lastBase1");
   const lastBase2 = document.getElementById("lastBase2");
   const createTabButton = document.getElementById("createTab");
+  const swapButton = document.getElementById('swapUrls');
   // Initialize inputs with last used values or defaults
   chrome.storage.sync.get(["lastBase1", "lastBase2"], function (result) {
     base1Input.value = result.lastBase1 || "https://console.zenefits.com";
@@ -25,5 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
         chrome.tabs.create({ url: newUrl });
       }
     });
+  });
+  swapButton.addEventListener("click", function () {
+    const base1Input = document.getElementById('base1');
+    const base2Input = document.getElementById('base2');
+    const tempUrl = base1Input.value;
+    base1Input.value = base2Input.value;
+    base2Input.value = tempUrl;
   });
 });
