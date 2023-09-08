@@ -1,4 +1,4 @@
-<img width="339" alt="New Tab Extension" src="images/newtabExtensionUI.png">
+<img width="339" alt="New Tab Extension" src="images/newTabExtensionUI.png">
 
 **What**
 - Browser Extension to create a new tab based on the currently active tab with different base url.
