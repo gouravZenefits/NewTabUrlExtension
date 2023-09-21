@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const swapButton = document.getElementById('swapUrls');
   // Initialize inputs with last used values or defaults
   chrome.storage.sync.get(["lastBase1", "lastBase2"], function (result) {
-    base1Input.value = result.lastBase1 || "https://console.zenefits.com";
-    base2Input.value = result.lastBase2 || "https://console.zenefits.com";
+    base1Input.value = result.lastBase1 || "https://console.zenefits.com/";
+    base2Input.value = result.lastBase2 || "https://console.zenefits.com/";
     lastBase1.textContent = base1Input.value;
     lastBase2.textContent = base2Input.value;
   });
